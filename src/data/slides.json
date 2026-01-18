@@ -1,0 +1,23 @@
+[
+            {
+            "id": 1,
+            "title": "Epic Sword",
+            "rarity": "Epic",
+            "cta": "Buy Now",
+            "image": "epic_sword.png"
+            },
+            {
+            "id": 2,
+            "title": "Legendary Shield",
+            "rarity": "Legendary",
+            "cta": "Buy Now",
+            "image": "legendary_shield.png"
+            },
+            {
+            "id": 3,
+            "title": "Rare Helmet",
+            "rarity": "Rare",
+            "cta": "Buy Now",
+            "image": "rare_helmet.png"
+            }
+]

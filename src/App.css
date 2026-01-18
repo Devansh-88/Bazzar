@@ -1,0 +1,51 @@
+@import "tailwindcss";
+/* Custom styles for Swiper navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  /* Basic styling */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: #d4af37; /* Gold color to match your theme */
+  border: 2px solid #d4af37;
+  border-radius: 50%; /* Circular buttons */
+  width: 40px; /* Button size */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #d4af37; /* Solid gold on hover */
+  color: #000; /* Dark text/icon on hover */
+  box-shadow: 0 0 14px rgba(212, 175, 55, 0.6); /* Glow effect matching your input field */
+}
+
+.swiper-pagination-bullet {
+  background-color: rgba(212, 175, 55, 0.5); /* Semi-transparent gold */
+  width: 8px;
+  height: 8px;
+  opacity: 1; /* Ensure bullets are visible */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.swiper-pagination-bullet-active {
+  background: #D4AF37;
+  box-shadow: 0 0 8px rgba(212,175,55,0.8);
+  transform: scale(1.2); /* Slightly larger active bullet */
+}
+
+/* Rarity-based glow for item cards */
+.rarity-glow {
+  box-shadow: 0 0 0px var(--rarity-color);
+}
+
+.rarity-glow:hover {
+  box-shadow: 0 0px 14px var(--rarity-color);
+}
+
+.img-glow:hover {
+  box-shadow: 0 0 35px var(--rarity-color);
+}

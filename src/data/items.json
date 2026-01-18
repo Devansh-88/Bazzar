@@ -1,0 +1,84 @@
+[
+  {
+  "id": "item_001",
+  "name": "Divine Bow of Arjuna",
+  "slug": "divine-bow-of-arjuna",
+  "category": "Weapons",
+  "type": "Bow",
+  "rarity": "Legendary",
+  "price": 89,
+  "status": "available",
+  "img": "/src/assets/items/divine_bow_arjuna.png",
+  "shortDescription": "A celestial bow wielded by Arjuna during the Kurukshetra war, said to never miss its target when wielded by a worthy warrior.",
+  "attributes": {
+    "damage": {
+      "min": 85,
+      "max": 120
+    },
+    "range": "Long",
+    "element": "Celestial",
+    "condition": "Pristine",
+    "origin": "Ancient India",
+    "ageYears": 2500,
+    "binding": "Soul-bound"
+  },
+  "lore": {
+    "title": "Lore Scroll",
+    "description": "Forged by the divine architect Vishwakarma and blessed by Indra himself, the Divine Bow of Arjuna is a relic of unmatched precision and power. Legends say that when Arjuna stood upon the battlefield of Kurukshetra, this bow shimmered with celestial light, guiding each arrow toward righteousness. It is believed that the bow responds only to warriors of unwavering focus and moral resolve. Though centuries have passed, its power remains undiminished — dormant, waiting for a new bearer to awaken its true potential."
+  },
+  "seller": {
+    "id": "seller_014",
+    "username": "Kalrik",
+    "rank": "Trusted Merchant",
+    "badge": "Legendary Trader",
+    "itemsSold": 193,
+    "rating": {
+      "value": 4.9,
+      "count": 128
+    },
+    "profileUrl": "/profile/kalrik"
+  }
+},
+
+{
+  "id": "item_002",
+  "name": "Chakram of Ages",
+  "slug": "chakram-of-ages",
+  "category": "Weapons",
+  "type": "Chakram",
+  "rarity": "Rare",
+  "price": 72,
+  "status": "available",
+  "img": "/src/assets/items/chakram_of_ages.png",
+  "shortDescription": "An ancient spinning weapon said to return to its wielder, carrying the wisdom of countless battles fought across eras.",
+  "attributes": {
+    "damage": {
+      "min": 45,
+      "max": 70
+    },
+    "range": "Medium",
+    "element": "Temporal",
+    "condition": "Well-preserved",
+    "origin": "Ancient India",
+    "ageYears": 1800,
+    "binding": "None"
+  },
+  "lore": {
+    "title": "Lore Scroll",
+    "description": "The Chakram of Ages is believed to have been forged during an era when time itself was unstable. Passed down through generations of warriors, it carries echoes of every battle it has witnessed. Masters of this weapon claim that each throw briefly reveals fragments of the past and future, guiding the chakram back to its rightful bearer. Though not divine, its mastery requires discipline, precision, and respect for time’s flow."
+  },
+  "seller": {
+    "id": "seller_014",
+    "username": "Kalrik",
+    "rank": "Trusted Merchant",
+    "badge": "Legendary Trader",
+    "itemsSold": 193,
+    "rating": {
+      "value": 4.9,
+      "count": 128
+    },
+    "profileUrl": "/profile/kalrik"
+  }
+}
+
+]
